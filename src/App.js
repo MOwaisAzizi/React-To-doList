@@ -3,6 +3,11 @@ import './App.css';
 
 function App() {
 
+    const [todos, setTodos] = useState([]);
+  const [inputValue, setInputValue] = useState('');
+  const [editIndex, setEditIndex] = useState(null);
+
+
 
   return (
     <div className="App">
